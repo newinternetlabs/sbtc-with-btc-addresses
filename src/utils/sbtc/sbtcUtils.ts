@@ -1,6 +1,6 @@
 import { SbtcBalanceResult } from '../../types';
 import { request } from "@stacks/connect";
-import { Pc, noneCV, principalCV, uintCV, makeUnsignedContractCall, UnsignedContractCallOptions, broadcastTransaction } from "@stacks/transactions";
+import { Pc, noneCV, principalCV, uintCV, makeUnsignedContractCall, UnsignedContractCallOptions } from "@stacks/transactions";
 
 // sBTC SIP-10 token contract details
 export const SBTC_CONTRACT_ADDRESS = 'SM3VDXK3WZZSA84XXFKAFAF15NNZX32CTSG82JFQ4';
