@@ -1,6 +1,8 @@
 import React, { createContext } from 'react';
 import AppProvider from './components/AppProvider';
 import Layout from './components/layout/Layout';
+import { DisclaimerProvider } from './components/DisclaimerContext';
+import DisclaimerModalWrapper from './components/DisclaimerModalWrapper';
 
 // Define the interface for our context
 interface AppContextType {
@@ -23,9 +25,12 @@ export const AppContext = createContext<AppContextType>({
  */
 const AppContainer: React.FC = () => {
   return (
-    <AppProvider>
-      <Layout />
-    </AppProvider>
+    <DisclaimerProvider>
+      <AppProvider>
+        <Layout />
+        <DisclaimerModalWrapper />
+      </AppProvider>
+    </DisclaimerProvider>
   );
 };
 
