@@ -1,0 +1,15 @@
+@import 'tailwindcss';
+
+/* Bitcoin orange background utilities */
+.bg-bitcoin-orange {
+  background-color: #F7931A !important;
+}
+
+.bg-bitcoin-orange-light {
+  background-color: #F7931A !important;
+  opacity: 0.7;
+}
+
+.hover\:bg-bitcoin-orange-dark:hover {
+  background-color: #E07D16 !important;
+} 
