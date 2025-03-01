@@ -7,7 +7,7 @@ This application demonstrates sending sBTC (Stacks Bitcoin) to a native Segwit B
 
 **This is a demonstration application only.**
 
-- It is offerred AS IS subject only to the terms LICENSE.
+- It is offered AS IS subject only to the terms LICENSE.
 - Entering a Bitcoin address generated outside of this app will cause your sBTC to be lost unless you have the private key and technical knowledge to recover it.
 - Sending layer 1 Bitcoin to an address generated in this app will cause your BTC to be lost unless you have the private key and technical knowledge to recover it.
 - Neither New Internet Labs Limited nor anyone else will provide assistance recovering lost sBTC, STX, BTC, or other tokens.
@@ -26,7 +26,7 @@ This application demonstrates sending sBTC (Stacks Bitcoin) to a native Segwit B
 3. Visit the app (hosted version here: https://sbtc-with-btc-addresses.vercel.app/)
 4. Accept the disclaimer when prompted.
 5. Connect wallet instance 1 with the Stacks account that has sBTC and STX.
-6. Connect wallet instance 2 with another Stacks account
+6. Connect wallet instance 2 with another Stacks account.
 7. Experiment with sending sBTC from wallet instance 1 to 2 using the bitcoin addresses in the app.
 
 ## License
